@@ -1,7 +1,7 @@
 {
     "name": "nodejs-shortlink",
     "version": "1.0.0",
-    "description": "Barebone link shortener server",
+    "description": "Barebone short link server",
     "main": "src/main.js",
     "scripts": {
         "test": "mocha"
