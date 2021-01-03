@@ -4,7 +4,7 @@ const openingMarker = (process.env.OPENING_MARKER != undefined)?(process.env.OPE
 const closingMarker = (process.env.CLOSING_MARKER != undefined)?(process.env.CLOSING_MARKER):('---LIST OF SHORT LINKS END---')
 const shortLinkDomain = (process.env.LINK_DOMAIN != undefined)?(process.env.LINK_DOMAIN):('link')
 const verbose = (process.env.VERBOSE != undefined)?(process.env.VERBOSE):(false)
-const urlStore = (process.env.URL_STORE != undefined)?(process.env.URL_STORE):('ADD A SAMPLE HERE')
+const urlStore = (process.env.URL_STORE != undefined)?(process.env.URL_STORE):('https://raw.githubusercontent.com/ragoncsa/nodejs-shortlink/main/test-data')
 
 exports.port = port
 exports.openingMarker = openingMarker
